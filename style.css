@@ -1,0 +1,19 @@
+
+.navbar {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 40px;
+    padding: 0px;
+    
+    
+}
+
+
+.navbar-brand {
+    color: white; 
+    font-size: 28px; 
+    font-weight: bold;
+    text-decoration: none; 
+}
