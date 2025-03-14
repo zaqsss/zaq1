@@ -1,60 +1,55 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+* {
     padding: 0;
-    background-color: #1a1a1a;
-    color: #ffffff;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #ffcc00;
-    padding: 20px;
-    text-align: center;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
 }
 
 nav {
+    height: 140px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-h1 {
-    margin: 0;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #333;
-    border-radius: 8px;
-}
-
-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-footer {
-    text-align: center;
+    
+    background-color: rgb(6, 15, 68);
     padding: 10px;
-    background-color: #ffcc00;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
+
+.logo {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+nav img {
+    
+    margin-bottom: 5px;
+}
+
+nav h1 {
+    font-size: 24px;
+    color: #ffffff;
+    position: relative;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+
+.titulo {
+    font-size: 20px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
